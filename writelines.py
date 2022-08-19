@@ -1,0 +1,6 @@
+file_ob=open("f1.txt","w")
+print("file created")
+file_ob.writelines("file_ob")
+print("hello python")
+file_ob.close()
+print("end of the file")

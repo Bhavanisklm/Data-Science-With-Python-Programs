@@ -1,0 +1,6 @@
+file_ob=open("f1.txt","r")
+print("file created")
+data=file_ob.read()
+print(data)
+file_ob.close()
+print("end of the file")
